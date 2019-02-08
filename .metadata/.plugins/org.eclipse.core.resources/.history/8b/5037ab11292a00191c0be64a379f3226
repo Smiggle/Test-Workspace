@@ -1,0 +1,67 @@
+package firstApplication;
+
+import java.util.Random;
+ 
+public class Bingo_Card
+{
+   private int[][] card;
+    
+   public Bingo_Card(Random random)
+   {
+      card = new int[5][5];
+      for (int c = 0; c < 5; c++)
+         {
+            for (int r = 0; r < 5; r++)
+               card[r][c] = random.nextInt(14) + c * 15 + 1;
+            checkForDuplicateValues(c, random);
+         }
+      card[2][2] = 99; //Free Space
+   }
+    
+   public void checkForDuplicateValues(int c, Random random)
+   {
+      int yikes = 0;
+      boolean done = false;
+      int t = 0;
+      while (done != true)
+      {
+         for (int r = t + 1; r < 5; r++)
+         {
+            if (card[r][c] == card[t][c])
+            {
+               card[r][c] = random.nextInt(14) + c * 15 + 1;
+               yikes++;
+            }
+            t++;
+         }
+         if(yikes == 0)
+            done = true;
+         else
+         {
+            yikes = 0;
+            t = 0;
+         }
+      }
+   }
+    
+   public String toString()
+   {
+      String display = "";
+      for(int r = 0; r < 5; r++)
+      {
+         for(int c = 0; c < 5; c++)
+            display += card[r][c] + " ";
+         display += "\n";
+      }
+      return display;
+   }
+    
+   public static void main (String args[])
+   {
+      Bingo_Card[] cards = new Bingo_Card[30];
+      Random chance = new Random();
+      for(int c = 0; c < cards.length; c++)
+         cards[c] = new Bingo_Card(chance);
+      System.out.println(cards[0]);
+   }
+}
