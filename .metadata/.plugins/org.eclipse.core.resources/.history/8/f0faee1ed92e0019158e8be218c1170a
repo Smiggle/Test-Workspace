@@ -10,7 +10,7 @@ public class Variable_intro {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int length = 10;  //linger side of rectangle
-		int width = 3;    //shorter side of rectangle
+		int width = 2;    //shorter side of rectangle
 		int area;         //calculated area of rectangle
 		
 		area = length * width;
