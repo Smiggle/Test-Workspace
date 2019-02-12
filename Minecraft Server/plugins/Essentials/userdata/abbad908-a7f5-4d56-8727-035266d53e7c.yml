@@ -1,0 +1,20 @@
+lastAccountName: LyxRM
+timestamps:
+  login: 1549639491793
+  lastteleport: 1549639782194
+  logout: 1549639810729
+ipAddress: 24.172.129.2
+lastlocation:
+  world: world
+  x: 29.49376220741506
+  y: 64.0
+  z: -67.5990543526005
+  yaw: 180.43373
+  pitch: 3.7638683
+logoutlocation:
+  world: redstone
+  x: 11.091429329412389
+  y: 58.37428209978577
+  z: 17.670335451908556
+  yaw: -128.0784
+  pitch: 35.834713

@@ -1,0 +1,5 @@
+messages:
+  prefix: '&bEasyRename &8> &7'
+  no-permissions: '&cPermission Denied'
+  rename-success: '&aRename success!'
+  rename-failure: '&cRename failed!'

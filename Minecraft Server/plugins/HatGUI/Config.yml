@@ -1,0 +1,10 @@
+Hats-per-page: 18
+Perm-world: false
+Hide-items-no-perm: true
+Prevent-helmet-remove: false
+Block-armor-hat: true
+Item-join: false
+Item-slot: 9
+SurvivalOptions:
+  Auto-equip-drop: false
+  No-hat-death-drop: false

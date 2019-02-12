@@ -1,0 +1,11 @@
+# 
+# LaunchPlate default configuration file #
+#                                        #
+# Create a spring board using any block  #
+# and pressure plate.                    #
+Material: GRASS
+Plate: LIGHT_WEIGHTED_PRESSURE_PLATE
+Force: 100.0
+Vertical_Bounce: true
+Magnitude: 2.5
+Check_For_Update: true

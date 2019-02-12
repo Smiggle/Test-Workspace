@@ -1,0 +1,17 @@
+rps:
+  update-checker: true
+  sqlite: false
+  use-particles: true
+  maxRange: 20
+  defaultRange: 5
+  defaultownerOnlyEdit: true
+  defaultInverted: false
+  defaultOwnerTrigger: true
+  defaultPlayerEntityTrigger: true
+  defaultHostileEntityTrigger: false
+  defaultPeacefulEntityTrigger: false
+  defaultDroppedItemsTrigger: false
+  defaultInvisibleEntityTrigger: false
+  defaultVehcileEntityTrigger: false
+  defaultProjectileEntityTrigger: false
+  defaultownerOnlyTrigger: false

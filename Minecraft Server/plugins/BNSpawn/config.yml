@@ -1,0 +1,23 @@
+# You can disable events messages by setting
+# message.onplayerjoin: ''
+# message.onplayerrespawn: ''
+prefix: '&c✦ &6BN&eSpawn &c✦'
+message:
+  permission: '&cNot have permission!'
+  nospawn: '&cThere is no spawn!'
+  notaplayer: '&cYou must specify a player!'
+  notanonlineplayer: '&cYou must specify an online player!'
+  setspawn: '&aSpawn has been successfully set!'
+  removespawn: '&aSpawn has been successfully remove!'
+  cometospawn: '&eYou have just been transported to the spawn!'
+  sendtospawn: '&ePlayer has been successfully send to the spawn!'
+  reload: '&eConfig has been successfully reload!'
+  onplayerjoin: '&eYou have just been transported to the spawn!'
+  onplayerrespawn: '&eYou have just been transported to the spawn!'
+spawn:
+  world: world
+  x: 27.980797887070704
+  y: 64.0
+  z: -68.38627786790015
+  pitch: 1.3502437
+  yaw: 180.00117

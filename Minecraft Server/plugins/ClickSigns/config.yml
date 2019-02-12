@@ -1,0 +1,5 @@
+Messages:
+  NO_PERMISSION: '&cYou don''t have permission for this command.'
+  LOOK_AT_SIGN: '&cYou have to look at a sign.'
+  ENTER_COMMAND: '&cYou must enter a command.'
+  INVALID_ARGUMENTS: '&cInvalid arguments. Type /clicksigns for help.'

@@ -1,0 +1,38 @@
+#
+#   _____                          _____           _             ___          __              _             
+#  / ____|                        |  __ \         | |           | \ \        / /             (_)            
+# | (___   ___ _ ____   _____ _ __| |__) |___  ___| |_ __ _ _ __| |\ \  /\  / /_ _ _ __ _ __  _ _ __   __ _ 
+#  \___ \ / _ \ '__\ \ / / _ \ '__|  _  // _ \/ __| __/ _` | '__| __\ \/  \/ / _` | '__| '_ \| | '_ \ / _` |
+#  ____) |  __/ |   \ V /  __/ |  | | \ \  __/\__ \ || (_| | |  | |_ \  /\  / (_| | |  | | | | | | | | (_| |
+# |_____/ \___|_|    \_/ \___|_|  |_|  \_\___||___/\__\__,_|_|   \__| \/  \/ \__,_|_|  |_| |_|_|_| |_|\__, |
+#                                                                                                      __/ |
+#                                                                                                     |___/ 
+#
+
+#ServerRestartWarning developed by ExplosiveStraw/XBP. If you like this plugin, leave 5 stars on bukkit!
+
+prefix: '&cServerRestartWarning &8>&7 '
+
+timers:
+  server-restart-time: 15
+  server-shutdown-time: 15
+  auto-restart-time: 3000
+  
+#Configuration Version - Do not change this.
+config: 112
+  
+#Auto-Kick Feature auto-kicks all players 2 seconds before the server restarts.
+auto-kick: true
+
+messages:
+  no-permission: '&cYou have insufficient permission to use this command. Only players with a specific permission can use this command!'
+  developer-join-message: true
+
+#Updater Settings - If you wish to have the plugin auto-update when a new release is created then change the value below to true!
+auto-update: true
+
+#Half Time Broadcast - "Half time" is when we broadcast a message at /2 of your server-restart-time setting. (Does not work for minutes aka. 120 seconds)
+half-time-broadcast: true
+
+#Developer Debug - If the developer of SRW would like to join, enabling this will allow a debug message to be sent to the developer when he joins.
+developer-debug: true

@@ -1,0 +1,18 @@
+JoinItem:
+  Block:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1631
+    type: NETHER_STAR
+GUI:
+  LEFT:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1631
+    type: ARROW
+  RIGHT:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1631
+    type: ARROW
+  REMOVE:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1631
+    type: REDSTONE_BLOCK

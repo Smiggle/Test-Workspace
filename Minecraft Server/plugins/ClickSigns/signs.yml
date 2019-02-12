@@ -1,0 +1,22 @@
+signs:
+- 'Location{world=CraftWorld{name=world},x=26.0,y=65.0,z=-70.0,pitch=0.0,yaw=0.0}:/warp
+  Creative '
+- 'Location{world=CraftWorld{name=world},x=27.0,y=65.0,z=-70.0,pitch=0.0,yaw=0.0}:/warp
+  survival '
+- 'Location{world=CraftWorld{name=world},x=28.0,y=65.0,z=-70.0,pitch=0.0,yaw=0.0}:/warp
+  dropper '
+- 'Location{world=CraftWorld{name=world},x=29.0,y=65.0,z=-70.0,pitch=0.0,yaw=0.0}:/warp
+  redstone '
+- 'Location{world=CraftWorld{name=world},x=26.0,y=64.0,z=-68.0,pitch=0.0,yaw=0.0}:/mvtp
+  legoandsmiggle '
+- 'Location{world=CraftWorld{name=creative},x=239.0,y=69.0,z=13.0,pitch=0.0,yaw=0.0}:/gmc '
+- 'Location{world=CraftWorld{name=dropper},x=-653.0,y=254.0,z=-746.0,pitch=0.0,yaw=0.0}:/warp
+  dropperselect '
+- 'Location{world=CraftWorld{name=legoandsmiggle},x=-186.0,y=79.0,z=108.0,pitch=0.0,yaw=0.0}:/disposal '
+- 'Location{world=CraftWorld{name=legoandsmiggle},x=-188.0,y=79.0,z=108.0,pitch=0.0,yaw=0.0}:/craft '
+- 'Location{world=CraftWorld{name=legoandsmiggle},x=-184.0,y=79.0,z=108.0,pitch=0.0,yaw=0.0}:/echest '
+- 'Location{world=CraftWorld{name=legoandsmiggle},x=-177.0,y=79.0,z=112.0,pitch=0.0,yaw=0.0}:/craft '
+- 'Location{world=CraftWorld{name=legoandsmiggle},x=-177.0,y=79.0,z=114.0,pitch=0.0,yaw=0.0}:/disposal '
+- 'Location{world=CraftWorld{name=legoandsmiggle},x=-177.0,y=79.0,z=116.0,pitch=0.0,yaw=0.0}:/echest '
+- 'Location{world=CraftWorld{name=world},x=28.0,y=65.0,z=-70.0,pitch=0.0,yaw=0.0}:/warp
+  dropper '

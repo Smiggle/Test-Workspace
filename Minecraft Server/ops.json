@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "58bf76a6-8be5-4be1-9729-e640d75746d3",
+    "name": "xX_SmiggleBoy_Xx",
+    "level": 4,
+    "bypassesPlayerLimit": true
+  },
+  {
+    "uuid": "9fad3ae1-a9a9-40ba-ba16-ac13428ab8f0",
+    "name": "legoboy1101",
+    "level": 3,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "abbad908-a7f5-4d56-8727-035266d53e7c",
+    "name": "LyxRM",
+    "level": 3,
+    "bypassesPlayerLimit": false
+  }
+]

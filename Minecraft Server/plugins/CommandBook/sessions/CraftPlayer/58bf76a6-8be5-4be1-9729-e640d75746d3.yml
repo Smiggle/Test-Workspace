@@ -1,0 +1,7 @@
+com/sk89q/commandbook/AFKComponent/AFKSession: {idle-status: 'null', last-update: 1548530575749}
+com/sk89q/commandbook/locations/TeleportSession:
+    teleport:
+        bringable: {}
+        requests: {}
+    last-update: 1548530575750
+com/sk89q/commandbook/session/AdministrativeSession: {mute: false, last-update: 1548474063090}

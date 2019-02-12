@@ -1,0 +1,16 @@
+# CONFIG
+
+Prefix:
+  1: "&9&lSpectate&c&lPlus &8- "
+
+PleaseEnterAPlayerArg: "&4Error: &cPlease enter a player to spectate."
+PlayerIsNotOnline: "&4Error: &cPlayer &9{0} &cis not online." #{0} is replaced with the player arguments name!
+TooManyArguments: "&4Error: &cEnter only a player to spectate. &9Ex: &e/spec Notch"
+PlayerCannotBeSelf: "&4Error: &cYou cannot spectate yourself!"
+StoppedSpectating: "&eStopped Spectating"
+PluginReloaded: "&eSpecatatePlus Reloaded"
+NoPermissionToReload: "&4Error: &cYou do not have permission to reload the plugin!"
+NoPermissionToRestore: "&4Error: &cYou do not have permission to restore an inventory!"
+NoPermissionToViewList: "&4Error: &cYou do not have permission to view the spectators list!"
+CooldownTime: "&4Error: &cPlease wait {Time} seconds before using this command!"
+CooldownTimeInSeconds: 10
