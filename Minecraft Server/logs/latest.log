@@ -1,49 +1,16 @@
-[04:32:05] [Craft Scheduler Thread - 2498/INFO]: [Vault] Checking for Updates ... 
-[04:32:06] [Craft Scheduler Thread - 2498/INFO]: [Vault] No new version available
-[09:49:39] [User Authenticator #1/INFO]: UUID of player xX_SmiggleBoy_Xx is 58bf76a6-8be5-4be1-9729-e640d75746d3
-[09:49:44] [Server thread/INFO]: xX_SmiggleBoy_Xx[/24.172.129.2:51576] logged in with entity id 7431 at ([legoandsmiggle]-190.70927431447004, 80.10484419861285, 128.07832405152612)
-[09:49:45] [Server thread/INFO]: CONSOLE issued server command: /list 
-[09:49:45] [Server thread/INFO]: There are 1 out of maximum 20 players online.
-[09:49:45] [Server thread/INFO]: default: xX_SmiggleBoy_Xx
-[09:49:45] [Craft Scheduler Thread - 2645/ERROR]: [PlayerParticles] An error occurred retrieving an SQLite database connection: [SQLITE_BUSY]  The database file is locked (database is locked)
-[09:49:54] [Server thread/INFO]: xX_SmiggleBoy_Xx issued server command: /gmc
-[09:49:58] [Server thread/INFO]: xX_SmiggleBoy_Xx issued server command: /gms
-[09:50:03] [Server thread/INFO]: xX_SmiggleBoy_Xx issued server command: /fly
-[09:50:22] [Server thread/INFO]: xX_SmiggleBoy_Xx issued server command: /spawn
-[09:50:34] [Server thread/INFO]: xX_SmiggleBoy_Xx issued server command: /warp Creative 
-[09:50:37] [Server thread/INFO]: xX_SmiggleBoy_Xx issued server command: /gmc 
-[09:50:43] [Server thread/INFO]: xX_SmiggleBoy_Xx issued server command: /time set day
-[10:01:52] [Server thread/INFO]: xX_SmiggleBoy_Xx issued server command: /time set day
-[10:11:20] [Server thread/INFO]: xX_SmiggleBoy_Xx issued server command: /setblock ~ ~ ~ lava
-[10:11:20] [Server thread/INFO]: [xX_SmiggleBoy_Xx: Changed the block at 136, 72, 326]
-[10:11:36] [Server thread/INFO]: xX_SmiggleBoy_Xx issued server command: /setblock ~ ~ ~ lava
-[10:11:36] [Server thread/INFO]: [xX_SmiggleBoy_Xx: Changed the block at 130, 72, 326]
-[10:11:41] [Server thread/INFO]: xX_SmiggleBoy_Xx issued server command: /d
-[10:11:44] [Server thread/INFO]: xX_SmiggleBoy_Xx issued server command: /setblock ~ ~ ~ lava
-[10:11:44] [Server thread/INFO]: [xX_SmiggleBoy_Xx: Changed the block at 130, 72, 327]
-[10:11:50] [Server thread/INFO]: xX_SmiggleBoy_Xx issued server command: /setblock ~ ~ ~ lava
-[10:11:53] [Server thread/INFO]: xX_SmiggleBoy_Xx issued server command: /setblock ~ ~ ~ lava
-[10:11:53] [Server thread/INFO]: [xX_SmiggleBoy_Xx: Changed the block at 130, 73, 326]
-[10:11:55] [Server thread/INFO]: xX_SmiggleBoy_Xx issued server command: /setblock ~ ~ ~ lava
-[10:11:55] [Server thread/INFO]: [xX_SmiggleBoy_Xx: Changed the block at 130, 73, 327]
-[10:12:03] [Server thread/INFO]: xX_SmiggleBoy_Xx issued server command: /setblock ~ ~ ~ lava
-[10:12:03] [Server thread/INFO]: [xX_SmiggleBoy_Xx: Changed the block at 132, 73, 331]
-[10:12:05] [Server thread/INFO]: xX_SmiggleBoy_Xx issued server command: /setblock ~ ~ ~ lava
-[10:12:05] [Server thread/INFO]: [xX_SmiggleBoy_Xx: Changed the block at 132, 73, 332]
-[10:12:15] [Server thread/INFO]: xX_SmiggleBoy_Xx issued server command: /setblock ~ ~ ~ lava
-[10:12:15] [Server thread/INFO]: [xX_SmiggleBoy_Xx: Changed the block at 134, 75, 333]
-[10:12:26] [Server thread/INFO]: xX_SmiggleBoy_Xx issued server command: /setblock ~ ~ ~ lava
-[10:12:26] [Server thread/INFO]: [xX_SmiggleBoy_Xx: Changed the block at 136, 73, 332]
-[10:12:28] [Server thread/INFO]: xX_SmiggleBoy_Xx issued server command: /setblock ~ ~ ~ lava
-[10:12:28] [Server thread/INFO]: [xX_SmiggleBoy_Xx: Changed the block at 136, 73, 331]
-[10:12:35] [Server thread/INFO]: xX_SmiggleBoy_Xx issued server command: /setblock ~ ~ ~ lava
-[10:12:35] [Server thread/INFO]: [xX_SmiggleBoy_Xx: Changed the block at 136, 73, 327]
-[10:12:37] [Server thread/INFO]: xX_SmiggleBoy_Xx issued server command: /setblock ~ ~ ~ lava
-[10:12:37] [Server thread/INFO]: [xX_SmiggleBoy_Xx: Changed the block at 136, 73, 326]
-[10:12:43] [Server thread/INFO]: xX_SmiggleBoy_Xx issued server command: /d
-[10:12:46] [Server thread/INFO]: xX_SmiggleBoy_Xx issued server command: /setblock ~ ~ ~ lava
-[10:12:46] [Server thread/INFO]: [xX_SmiggleBoy_Xx: Changed the block at 134, 73, 325]
-[10:27:01] [Server thread/INFO]: xX_SmiggleBoy_Xx lost connection: Disconnected
-[10:27:01] [Server thread/INFO]: xX_SmiggleBoy_Xx left the game
-[10:34:55] [Craft Scheduler Thread - 2680/INFO]: [Vault] Checking for Updates ... 
-[10:34:56] [Craft Scheduler Thread - 2680/INFO]: [Vault] No new version available
+[08:50:01] [Server thread/INFO]: Starting minecraft server version 1.13.2
+[08:50:01] [Server thread/INFO]: Loading properties
+[08:50:01] [Server thread/INFO]: Default game type: SURVIVAL
+[08:50:02] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-518206a-a5b9c7b (MC: 1.13.2) (Implementing API version 1.13.2-R0.1-SNAPSHOT)
+[08:50:02] [Server thread/INFO]: Debug logging is disabled
+[08:50:02] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:50:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:50:02] [Server thread/INFO]: Generating keypair
+[08:50:03] [Server thread/INFO]: Starting Minecraft server on 192.168.0.23:25565
+[08:50:03] [Server thread/INFO]: Using default channel type
+[08:50:04] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[08:50:04] [Server thread/WARN]: The exception was: java.net.BindException: Cannot assign requested address: bind
+[08:50:04] [Server thread/WARN]: Perhaps a server is already running on that port?
+[08:50:04] [Server thread/INFO]: Stopping server
+[08:50:04] [Server thread/INFO]: Saving players
+[08:50:04] [Server thread/INFO]: Saving worlds
