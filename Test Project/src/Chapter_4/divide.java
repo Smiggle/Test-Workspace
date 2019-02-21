@@ -1,0 +1,27 @@
+package Chapter_4;
+
+public class divide {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num1 = 5;
+		int num2 = 3;
+		int result;
+		double doubleNum1 = 5;
+		double doubleNum2 = 3;
+		double doubleResult;
+		
+		result = num1 / num2;
+		System.out.println("num1 / num2:  " + result);
+		
+		doubleResult = doubleNum1 / doubleNum2;
+		System.out.println("doubleNum1 / doubleNum2: " + doubleResult);
+		
+		result = num1 % num2;
+		System.out.println("num1 % num2: " + result);
+		
+		doubleResult = doubleNum1 % doubleNum2;
+		System.out.println("doubleNum1 % doubleNum2: " + doubleResult);
+	}
+
+}
