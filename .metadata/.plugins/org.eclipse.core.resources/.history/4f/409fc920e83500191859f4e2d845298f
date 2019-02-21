@@ -1,6 +1,7 @@
 package Chapter_4;
 /**
  * Calculates and displays the area of a rectangle 
+ * @author corey
  *
  */
 
