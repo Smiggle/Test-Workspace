@@ -3,6 +3,7 @@ package Chapter_4;
 public class divide {
 
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 		int num1 = 5;
 		int num2 = 3;
 		int result;
@@ -11,7 +12,7 @@ public class divide {
 		double doubleResult;
 		
 		result = num1 / num2;
-		System.out.format("%-10s %8s", "num1 / num2:  " + result);
+		System.out.format("%-10s %8s %8s", "num1 / num2:  " + result);
 		
 		doubleResult = doubleNum1 / doubleNum2;
 		System.out.println("doubleNum1 / doubleNum2: " + doubleResult);
