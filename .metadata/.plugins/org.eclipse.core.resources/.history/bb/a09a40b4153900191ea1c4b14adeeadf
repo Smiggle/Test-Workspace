@@ -17,13 +17,13 @@ public class divide {
 		System.out.format("%-10s %2s", "doubleNum1 / doubleNum2: ", doubleResult + "\n");
 		
 		doubleResult = num1 / doubleNum2;
-		System.out.format("%-10s %2s", "num1 / doubleNum2: ", doubleResult + "\n");
+		System.out.format("%-10s %2s", "num1 / doubleNum2: " + doubleResult);
 		
 		result = num1 % num2;
-		System.out.format("%-10s %2s", "num1 % num2: ", result + "\n");
+		System.out.println("num1 % num2: " + result);
 		
 		doubleResult = doubleNum1 % doubleNum2;
-		System.out.format("%-10s %2s", "doubleNum1 % doubleNum2: ", doubleResult);
+		System.out.println("doubleNum1 % doubleNum2: " + doubleResult);
 	}
 
 }
