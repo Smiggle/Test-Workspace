@@ -22,13 +22,13 @@ public class Exercise_13 {
 		
 		input = new Scanner(System.in);
 		
-		System.out.print("How Much did you Spend on food: $");
+		System.out.print("How Much did you Spend on food: ");
 		food = input.nextInt();
-		System.out.print("How much did you spend on Clothing: $");
+		System.out.print("How much did you spend on Clothing: ");
 		clothing = input.nextInt();
-		System.out.print("How much did you spend on Entertainment: $");
+		System.out.print("How much did you spend on Entertainment: ");
 		entertainment = input.nextInt();
-		System.out.print("How much was your rent: $");
+		System.out.print("How much was your rent: ");
 		rent = input.nextInt();
 		
 		fp = (food / (food + clothing + entertainment + rent)) * 100;
