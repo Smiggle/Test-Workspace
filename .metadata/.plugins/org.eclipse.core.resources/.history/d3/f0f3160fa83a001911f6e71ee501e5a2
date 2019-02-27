@@ -1,0 +1,23 @@
+package Chapter_4;
+
+import java.util.Scanner;
+
+public class Exercise_13 {
+
+	public static void main(String[] args) {
+		System.out.print("How Much did you Spend on food: ");
+		Scanner food = new Scanner(System.in);
+		System.out.println();
+		System.out.print("How much did you spend on Clothing: ");
+		Scanner clothing = new Scanner(System.in);
+		System.out.println();
+		System.out.print("How much did you spend on Entertainment: ");
+		Scanner entertainment = new Scanner(System.in);
+		System.out.println();
+		System.out.print("How much was your rent: ");
+		Scanner rent = new Scanner(System.in);
+		
+
+	}
+
+}
