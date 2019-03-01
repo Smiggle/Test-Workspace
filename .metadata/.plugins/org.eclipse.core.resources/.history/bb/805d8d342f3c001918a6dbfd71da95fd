@@ -1,6 +1,5 @@
 package Chapter_4;
 
-import java.io.IOException;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
@@ -8,7 +7,7 @@ public class Exercise_13 {
 
 	private static Scanner input;
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) {
 		
 		DecimalFormat df = new DecimalFormat("0.00");
 		
@@ -37,13 +36,13 @@ public class Exercise_13 {
 		ep = (entertainment / (food + clothing + entertainment + rent)) * 100;
 		rp = (rent / (food + clothing + entertainment + rent )) * 100;
 		
-		for (int i = 0; i < 50; ++i) System.out.println();
+		System.out.println("");
 		System.out.format("%15s %12s", "Category", "Budget\n");
 		System.out.format("%15s %12s %1s", "Food", df.format(fp), "%\n");
 		System.out.format("%15s %12s %1s", "Clothing", df.format(cp), "%\n");
 		System.out.format("%15s %12s %1s", "Entertainment", df.format(ep), "%\n");
 		System.out.format("%15s %12s %1s", "Rent", df.format(rp), "%\n");
-		for (int i = 0; i < 5; ++i) System.out.println();;		
+				
 	}
 
 }
