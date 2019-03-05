@@ -1,0 +1,42 @@
+package Chapter_4;
+
+import java.io.IOException;
+import java.text.DecimalFormat;
+import java.util.Scanner;
+
+public class Exercise_2 {
+	
+	private static Scanner input;
+
+	public static void main(String[] args) {
+		
+		DecimalFormat df = new DecimalFormat("0.00");
+		
+		double labor;
+		double rent;
+		double diameter;
+		double materials;
+		double total;
+		
+		input = new Scanner(System.in);
+		
+		System.out.print("Enter the diameter of the pizza in inches: ");
+		diameter = input.nextInt();
+		
+		labor = .75;
+		rent = 1;
+		materials = .05 * diameter * diameter;
+		total = labor + rent + materials;
+		
+		for (int i = 0; i < 50; ++i) System.out.println();
+		for (int i = 0; i < 50; ++i) System.out.print("=");
+		System.out.println();
+		System.out.print("| ");
+		System.out.print("Your total comes out to be $");
+		System.out.print(df.format(total));
+		for (int i = 0; i < 15; ++i) System.out.print(" ");
+		System.out.println("|");
+		
+	}
+
+}
