@@ -42,13 +42,13 @@ public class Exercise_9 {
 		
 		if (number == guess1) {
 			System.out.println("Great Job Player 1! You Guessed Correctly!");
-			}else {System.out.println("Player 1 Better luck next time");
+			}else {System.out.println("Better luck next time");
 			
 		}
 		if (number == guess2) {
 			System.out.println("Great Job Player 2! You Guessed Correctly!");
 			for (int i = 0; i < 6; ++i) System.out.println();
-			}else {System.out.println("Player 2: Better luck next time");
+			}else {System.out.println("Better luck next time");
 			for (int i = 0; i < 6; ++i) System.out.println();
 		}
 		if (error1 == 1) {
