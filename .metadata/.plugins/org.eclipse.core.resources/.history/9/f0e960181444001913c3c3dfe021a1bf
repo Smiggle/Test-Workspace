@@ -15,7 +15,7 @@ public class Exercise_9 {
 		Random rand = new Random();
 		
 		number = rand.nextInt(20) + 1;
-		//System.out.println(number);
+		System.out.println(number);
 		
 		System.out.print("Player 1, Enter a number between 1 and 20: ");
 		guess1 = input.nextInt();
@@ -53,22 +53,12 @@ public class Exercise_9 {
 		}
 		if (error1 == 1) {
 			for (int i = 0; i < 50; ++i) System.out.println();
-			System.out.println("Error! Player 1 Guess too big!");
+			System.out.println("Error! Guess too big!");
 			for (int i = 0; i < 10; ++i) System.out.println();
 		}
 		if (error1 == 2) {
 			for (int i = 0; i < 50; ++i) System.out.println();
-			System.out.println("Error! Player 1 Guess too small!");
-			for (int i = 0; i < 10; ++i) System.out.println();
-		}
-		if (error2 == 1) {
-			for (int i = 0; i < 50; ++i) System.out.println();
-			System.out.println("Error! Player 2 Guess too big!");
-			for (int i = 0; i < 10; ++i) System.out.println();
-		}
-		if (error2 == 2) {
-			for (int i = 0; i < 50; ++i) System.out.println();
-			System.out.println("Error! Player 2 Guess too small!");
+			System.out.println("Error! Guess too small!");
 			for (int i = 0; i < 10; ++i) System.out.println();
 		}
 
