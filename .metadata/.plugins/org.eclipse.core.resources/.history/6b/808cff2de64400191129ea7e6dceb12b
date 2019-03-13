@@ -13,11 +13,11 @@ public class Exercise_11 {
 		double r2;
 		
 		
-		System.out.print("Enter value for a: ");
+		System.out.print("Input a: ");
 		a = input.nextDouble();
-		System.out.print("Enter value for b: ");
+		System.out.print("Input b: ");
 		b = input.nextDouble();
-		System.out.print("Enter value for c: ");
+		System.out.print("Input c: ");
 		c = input.nextDouble();
 		
 		result = b * b - 4.0 * a * c;
