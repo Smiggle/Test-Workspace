@@ -9,7 +9,10 @@ public class Exercise_13 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		
-		double principal, rate, numberOfMonths, payment;
+		double principal; 
+		double rate;
+		double numberOfMonths;
+		double payment;
 		
 		System.out.print("Principal: ");
 		principal = input.nextDouble();

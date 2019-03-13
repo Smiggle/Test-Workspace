@@ -5,13 +5,15 @@ import java.util.Random;
 
 public class Exercise_9 {
 
+	private static Scanner input;
+
 	public static void main(String[] args) {
 		int number;
 		int guess1;
 		int guess2;
 		int error1 = 0;
 		int error2 = 0;
-		Scanner input = new Scanner(System.in);
+		input = new Scanner(System.in);
 		Random rand = new Random();
 		
 		number = rand.nextInt(20) + 1;

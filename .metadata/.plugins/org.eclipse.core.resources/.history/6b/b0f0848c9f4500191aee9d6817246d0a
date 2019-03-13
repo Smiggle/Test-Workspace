@@ -1,0 +1,14 @@
+package firstApplication;
+
+public class a_test {
+
+	public static void main(String[] args) {
+		int x;
+		
+		
+		System.out.println(6(Math.pow(2)));
+		
+
+	}
+
+}

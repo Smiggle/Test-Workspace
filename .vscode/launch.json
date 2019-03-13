@@ -1,0 +1,154 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Bingo_Card<Test Project>",
+            "request": "launch",
+            "mainClass": "Chapter_3.Bingo_Card",
+            "projectName": "Test Project"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise_13<Test Project>",
+            "request": "launch",
+            "mainClass": "Chapter_4.Exercise_13",
+            "projectName": "Test Project"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise_2<Test Project>",
+            "request": "launch",
+            "mainClass": "Chapter_4.Exercise_2",
+            "projectName": "Test Project"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Input_variable<Test Project>",
+            "request": "launch",
+            "mainClass": "Chapter_4.Input_variable",
+            "projectName": "Test Project"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Variable_intro<Test Project>",
+            "request": "launch",
+            "mainClass": "Chapter_4.Variable_intro",
+            "projectName": "Test Project"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-divide<Test Project>",
+            "request": "launch",
+            "mainClass": "Chapter_4.divide",
+            "projectName": "Test Project"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise9<Test Project>",
+            "request": "launch",
+            "mainClass": "Chapter_5.Exercise9",
+            "projectName": "Test Project"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise_11<Test Project>",
+            "request": "launch",
+            "mainClass": "Chapter_5.Exercise_11",
+            "projectName": "Test Project"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise_13<Test Project>(1)",
+            "request": "launch",
+            "mainClass": "Chapter_5.Exercise_13",
+            "projectName": "Test Project"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise_9<Test Project>",
+            "request": "launch",
+            "mainClass": "Chapter_5.Exercise_9",
+            "projectName": "Test Project"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RPS<Test Project>",
+            "request": "launch",
+            "mainClass": "Chapter_5.RPS",
+            "projectName": "Test Project"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-random_numbers<Test Project>",
+            "request": "launch",
+            "mainClass": "Chapter_5.random_numbers",
+            "projectName": "Test Project"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Dick_test<Test Project>",
+            "request": "launch",
+            "mainClass": "firstApplication.Dick_test",
+            "projectName": "Test Project"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HelloWorld<Test Project>",
+            "request": "launch",
+            "mainClass": "firstApplication.HelloWorld",
+            "projectName": "Test Project"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MulticulturalGreeting<Test Project>",
+            "request": "launch",
+            "mainClass": "firstApplication.MulticulturalGreeting",
+            "projectName": "Test Project"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-a_test<Test Project>",
+            "request": "launch",
+            "mainClass": "firstApplication.a_test",
+            "projectName": "Test Project"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-formatting_output_test<Test Project>",
+            "request": "launch",
+            "mainClass": "firstApplication.formatting_output_test",
+            "projectName": "Test Project"
+        }
+    ]
+}
