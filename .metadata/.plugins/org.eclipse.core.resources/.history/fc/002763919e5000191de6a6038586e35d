@@ -1,0 +1,10 @@
+package Chapter_6;
+
+public class Counters_and_Accumulators {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
