@@ -26,8 +26,13 @@ public class Exercise_8 {
 			}
 			System.out.print("Enter a number between 1 and 20: ");
 			guess = input.nextInt();
+			if (guess > 20) {
+				error = 1;
+			}
+			if (guess < 1) {
+				error = 2;
+			}
 		}
-		
 		input.close();
 		for (int i = 0; i < 50; ++i) System.out.println();
 		
@@ -39,8 +44,18 @@ public class Exercise_8 {
 			for (int i = 0; i < 8; ++i) System.out.println();
 			}else {System.out.println("Better luck next time");
 			for (int i = 0; i < 8; ++i) System.out.println();
-			
-			}
+		}
+		if (error == 1) {
+			for (int i = 0; i < 50; ++i) System.out.println();
+			System.out.println("Error! Guess too big!");
+			for (int i = 0; i < 10; ++i) System.out.println();
+		}
+		if (error == 2) {
+			for (int i = 0; i < 50; ++i) System.out.println();
+			System.out.println("Error! Guess too small!");
+			for (int i = 0; i < 10; ++i) System.out.println();
+		}
+
 
 	}
 

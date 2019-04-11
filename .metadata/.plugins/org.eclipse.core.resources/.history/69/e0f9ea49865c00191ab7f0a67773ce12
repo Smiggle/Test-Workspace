@@ -1,0 +1,22 @@
+package Chapter_6;
+
+import java.util.Scanner;
+
+public class Exercise_17 {
+
+	public static void main(String[] args) {
+		String password = "secret";
+		String guess;
+		int counter = 0;
+		int tries = 0;
+		
+		Scanner input = new Scanner(System.in);
+		
+		
+		while (tries != 4) {
+			
+		}
+
+	}
+
+}

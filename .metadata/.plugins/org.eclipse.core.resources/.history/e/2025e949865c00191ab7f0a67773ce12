@@ -19,6 +19,7 @@ public class Exercise_8 {
 			if (guess != 0) {
 				if (guess > number) {
 					System.out.println("Guess too high! Try Again!");
+					System.exit(0);
 				} else if (guess < number) {
 					System.out.println("Guess too low! Try Again!");
 				}
