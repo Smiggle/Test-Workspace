@@ -28,15 +28,15 @@ public class Exercise_8 {
 			guess = input.nextInt();
 			if (guess < 1) {
 				for (int i = 0; i < 50; ++i) System.out.println();
-				System.out.println("ERROR! Your number is too Low!");
-				for (int i = 0; i < 10; ++i) System.out.println();
+				System.out.println("Error! Guess Too Low!");
 				System.exit(0);
+				for (int i = 0; i < 10; ++i) System.out.println();
 			}
 			if (guess > 20) {
 				for (int i = 0; i < 50; ++i) System.out.println();
-				System.out.println("ERROR! Your number is too High!");
-				for (int i = 0; i < 10; ++ i) System.out.println();
+				System.out.println("Error! Guess too High");
 				System.exit(0);
+				for (int i = 0; i < 10; ++ i) System.out.println();
 			}
 		}
 		
