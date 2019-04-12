@@ -1,0 +1,35 @@
+package Chapter_6;
+
+import java.util.Scanner;
+
+public class Exercise_18 {
+
+	public static void main(String[] args) {
+		String first;
+		String middle;
+		String last;
+		String f;
+		String m;
+		String l;
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter First Name: ");
+		first = input.nextLine();
+		System.out.print("Enter Middle Initial: ");
+		middle = input.nextLine();
+		System.out.print("Enter Last Name: ");
+		last = input.nextLine();
+		input.close();
+		
+		f = toLowerCase(first);
+		System.out.println(f);
+
+	}
+
+	private static String toLowerCase(String first) {
+		
+		return null;
+	}
+
+}

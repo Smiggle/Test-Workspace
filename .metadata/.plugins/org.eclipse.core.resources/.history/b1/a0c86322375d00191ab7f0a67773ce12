@@ -1,0 +1,44 @@
+package Chapter_6;
+
+import java.util.Scanner;
+
+public class Exercise_18 {
+
+	public static void main(String[] args) {
+		String first;
+		String middle;
+		String last;
+		String f;
+		String m;
+		String l;
+		int fl;
+		int ml;
+		int ll;
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter First Name: ");
+		first = input.nextLine();
+		System.out.print("Enter Middle Initial: ");
+		middle = input.nextLine();
+		System.out.print("Enter Last Name: ");
+		last = input.nextLine();
+		input.close();
+		
+		fl = first.length();
+		ml = middle.length();
+		ll = last.length();
+		
+		f = first.toLowerCase();
+		m = middle.toUpperCase();
+		l = last.toLowerCase();
+		
+		f = f.substring(1, 2);
+		m = m.substring(1, 2);
+		l = l.substring(1, 2);
+		
+		System.out.println(f + m + l);
+		
+	}
+
+}
