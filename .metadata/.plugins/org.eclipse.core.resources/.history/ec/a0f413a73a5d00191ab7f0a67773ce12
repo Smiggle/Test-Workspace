@@ -1,0 +1,27 @@
+package Chapter_6;
+
+import java.util.Scanner;
+
+public class Exercise_19 {
+
+	public static void main(String[] args) {
+		String sentence;
+		String word;
+		String newString;
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter a Sentence: ");
+		sentence = input.nextLine();
+		System.out.print("Enter a String: ");
+		word = input.nextLine();
+		input.close();
+		
+		newString = sentence.replaceAll(word, "");
+		
+		for (int i = 0; i < 50; ++i) System.out.println();
+		System.out.println(newString);
+
+	}
+
+}
