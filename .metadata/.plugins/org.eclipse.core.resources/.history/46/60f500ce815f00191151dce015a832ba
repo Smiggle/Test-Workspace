@@ -15,6 +15,7 @@ public class Exercise_3 {
 		double goal;
 		double interest;
 		int count = 0;
+		int count2 = 0;
 		
 		//scanner statement
 		Scanner input = new Scanner(System.in);

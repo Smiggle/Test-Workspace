@@ -8,6 +8,7 @@ public class Exercise_8 {
 	public static void main(String[] args) {
 		int number;
 		int guess = 0;
+		int error = 0;
 		Scanner input = new Scanner(System.in);
 		Random rand = new Random();
 		

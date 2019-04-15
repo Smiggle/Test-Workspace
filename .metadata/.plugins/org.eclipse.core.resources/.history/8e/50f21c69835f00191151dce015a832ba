@@ -19,13 +19,6 @@ public class Exercise_17 {
 			if (guess.equals(password)) {
 				correct = 1;
 			}
-			if (correct == 1) {
-				System.out.println("Password Correct!");
-				for (int i = 0; i < 50; ++i) System.out.println();
-				System.out.println("Welcome!");
-				for (int i = 0; i < 10; ++i) System.out.println();
-				System.exit(0);
-			}
 			if (counter != 0) {
 				if (correct == 0) {
 					System.out.println("Incorrect!");
@@ -39,7 +32,15 @@ public class Exercise_17 {
 					System.exit(0);
 				}
 			}
-			counter += 1;
+			if (correct == 1) {
+				System.out.println("Password Correct!");
+				for (int i = 0; i < 50; ++i) System.out.println();
+				System.out.println("Welcome!");
+				for (int i = 0; i < 10; ++i) System.out.println();
+				System.exit(0);
+			} else {
+				counter += 1;
+			}
 			System.out.print("Enter the password:  ");
 			guess = input.nextLine();
 			

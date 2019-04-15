@@ -36,7 +36,7 @@ public class Exercise_18 {
 		l = l.substring(0, 1);
 		
 		//Print Statement
-		System.out.println("Your Monogram is: " + f + l + m);
+		System.out.println("Your Monogram is: " + f + m + l);
 		
 	}
 

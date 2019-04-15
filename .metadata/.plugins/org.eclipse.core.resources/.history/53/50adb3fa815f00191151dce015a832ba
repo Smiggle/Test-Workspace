@@ -31,7 +31,7 @@ public class Exercise_3 {
 		while (invest < goal) {
 			count += 1;
 			invest = invest + (invest*interest*.01);
-			//System.out.println("Invest = " + df.format(invest) + "    count = " + count);
+			System.out.println("Invest = " + df.format(invest) + "    count = " + count);
 		}
 		
 		//Print statements
