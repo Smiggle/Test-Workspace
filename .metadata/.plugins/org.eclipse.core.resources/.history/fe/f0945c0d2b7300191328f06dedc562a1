@@ -29,7 +29,6 @@ public class Exercise_3 {
 		System.out.print("Input a number to check if it is prime: ");
 		n = input.nextInt();
 		input.close();
-		isPrime(n);
 		
 
 	}
