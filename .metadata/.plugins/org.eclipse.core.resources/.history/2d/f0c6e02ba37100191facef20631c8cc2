@@ -1,6 +1,6 @@
 package Chapter_7;
 
-public class MethodOverloading_Example {
+public class fahrenheitToCelsius_Example {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

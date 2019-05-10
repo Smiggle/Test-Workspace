@@ -1,0 +1,12 @@
+package firstApplication;
+
+public class Dick_test {
+
+	public static void main(String[] args) {
+		String lastName = "Mason";
+		int nameLength;
+		nameLength = lastName.length();
+		System.out.print(nameLength);
+	}
+
+}

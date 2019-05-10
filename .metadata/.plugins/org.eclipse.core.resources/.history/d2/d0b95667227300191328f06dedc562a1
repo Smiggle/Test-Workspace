@@ -1,6 +1,6 @@
 package Chapter_7;
 
-public class TempConverter_Example {
+public class Exercise_2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
