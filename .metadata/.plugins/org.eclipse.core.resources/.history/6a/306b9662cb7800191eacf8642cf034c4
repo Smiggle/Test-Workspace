@@ -1,0 +1,22 @@
+package firstApplication;
+
+public class Dick_test {
+
+	public class Calculation {
+		public static int lineLength (int x, int y) {
+			int length;
+			length = x*y;
+			return length;
+		}
+		public static int lineLength (int x) {
+			int length;
+			length = x*x;
+			return length;
+		}
+		public static void main(String[] args) {
+			System.out.println(lineLength(5));
+		}
+		
+	}
+
+}

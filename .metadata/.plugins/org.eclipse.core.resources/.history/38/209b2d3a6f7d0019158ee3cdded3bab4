@@ -1,6 +1,6 @@
-package Chapter_7;
+package firstApplication;
 
-public class fahrenheitToCelsius_Example {
+public class Park_Concession {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
