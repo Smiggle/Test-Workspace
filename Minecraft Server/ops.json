@@ -28,5 +28,11 @@
     "name": "LyxRM",
     "level": 3,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "37da0383-3f17-4a62-a12b-2260f18c283b",
+    "name": "CarnivorousKitty",
+    "level": 3,
+    "bypassesPlayerLimit": false
   }
 ]

@@ -1,0 +1,20 @@
+﻿*** Please include this report when reporting your issue ***
+TimeDate: 7/2/2019 9:10:44 PM
+OSVersion: 6.2.9200.0
+OSPlatform: Win32NT
+OSFullName: Microsoft Windows 10 Pro
+InstalledUICulture: en-US
+AvailablePhysicalMemory: 4795854848
+TotalPhysicalMemory: 8589070336
+e.Exception.MessageSystem.ArgumentException: Invalid JSON primitive: .
+   at System.Web.Script.Serialization.JavaScriptObjectDeserializer.DeserializePrimitiveObject()
+   at System.Web.Script.Serialization.JavaScriptObjectDeserializer.DeserializeInternal(Int32 depth)
+   at System.Web.Script.Serialization.JavaScriptObjectDeserializer.BasicDeserialize(String input, Int32 depthLimit, JavaScriptSerializer serializer)
+   at System.Web.Script.Serialization.JavaScriptSerializer.Deserialize(JavaScriptSerializer serializer, String input, Type type, Int32 depthLimit)
+   at System.Web.Script.Serialization.JavaScriptSerializer.Deserialize[T](String input)
+   at MinecraftServerDashboard.AppSettings`1.Load(String fileName)
+   at MinecraftServerDashboard.MyUserSettings.MyUserSettings.Load()
+   at System.Windows.Application.OnStartup(StartupEventArgs e)
+   at System.Windows.Application.<.ctor>b__1_0(Object unused)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)

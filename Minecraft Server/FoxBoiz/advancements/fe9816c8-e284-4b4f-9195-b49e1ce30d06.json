@@ -1,0 +1,19 @@
+{
+  "minecraft:end/levitate": {
+    "criteria": {
+      "levitated": "2019-06-25 18:03:13 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2019-06-25 17:54:05 -0400",
+      "minecraft:mountains": "2019-06-25 18:05:43 -0400",
+      "minecraft:river": "2019-06-25 18:05:41 -0400",
+      "minecraft:wooded_hills": "2019-06-25 17:55:23 -0400",
+      "minecraft:plains": "2019-06-25 17:54:47 -0400"
+    },
+    "done": false
+  },
+  "DataVersion": 1968
+}
