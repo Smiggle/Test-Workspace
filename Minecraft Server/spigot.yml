@@ -10,7 +10,7 @@
 # IRC: #spigot @ irc.spi.gt ( http://www.spigotmc.org/pages/irc/ )
 # Forums: http://www.spigotmc.org/
 
-config-version: 11
+config-version: 12
 settings:
   debug: false
   save-user-cache-on-stop-only: false
@@ -63,13 +63,13 @@ advancements:
   - minecraft:story/disabled
 world-settings:
   default:
+    seed-outpost: 165745296
     verbose: true
     wither-spawn-sound-radius: 0
     item-despawn-rate: 6000
     merge-radius:
       item: 2.5
       exp: 3.0
-    view-distance: 10
     enable-zombie-pigmen-portal-spawns: true
     arrow-despawn-rate: 1200
     hanging-tick-frequency: 100
@@ -109,6 +109,7 @@ world-settings:
       vine-modifier: 100
       cocoa-modifier: 100
     entity-activation-range:
+      raiders: 48
       animals: 32
       monsters: 32
       misc: 16

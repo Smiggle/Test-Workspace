@@ -1,26 +1,26 @@
 lastAccountName: Smiggle_Boy
 timestamps:
-  login: 1562118474854
-  logout: 1562111902007
-  lastteleport: 1562115307096
+  login: 1562120465254
+  logout: 1562124204017
+  lastteleport: 1562122238525
   kits:
     firework: 1548549840953
     notch: 1548549868790
 ipAddress: 192.168.0.23
 logoutlocation:
-  world: world
-  x: 26.692577017507467
-  y: 64.0
-  z: -68.58710508587463
-  yaw: 173.09987
-  pitch: 16.050234
+  world: creative
+  x: 88.79027586922894
+  y: 36.60715882082616
+  z: 15.471490169364209
+  yaw: -60.84671
+  pitch: 43.779472
 lastlocation:
-  world: FoxBoiz
-  x: 334.2905137045156
-  y: 81.36757813477004
-  z: -267.30000001192093
-  yaw: 188.26561
-  pitch: 28.949076
+  world: creative
+  x: 89.8789880367606
+  y: 84.76579197889178
+  z: 12.819407385407168
+  yaw: -62.26283
+  pitch: 37.31196
 afk: false
 powertools:
   glass_bottle:
@@ -99,4 +99,4 @@ homes:
     yaw: 207.29907
     pitch: 30.749947
 money: '0.0'
-godmode: true
+godmode: false

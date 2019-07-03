@@ -1,20 +1,20 @@
 lastAccountName: Lonely_Fox
 timestamps:
-  login: 1562116811525
-  lastteleport: 1562112572936
-  logout: 1562114634573
+  login: 1562120839258
+  lastteleport: 1562123153098
+  logout: 1562124204327
 ipAddress: 74.134.230.181
 lastlocation:
-  world: FoxBoiz
-  x: 327.5523094356456
-  y: 72.86753695604686
-  z: 87.39990815549616
-  yaw: -11.95587
-  pitch: 17.857145
+  world: creative
+  x: 240.63363322742467
+  y: 69.0
+  z: 19.545366832063568
+  yaw: -287.2339
+  pitch: 10.96834
 logoutlocation:
-  world: FoxBoiz
-  x: 180.14951529915595
-  y: 88.61109083385982
-  z: -70.27296656839057
-  yaw: -263.67963
-  pitch: 33.995323
+  world: creative
+  x: 95.05117977132178
+  y: 30.867997597680837
+  z: 15.1530021613363
+  yaw: -284.05396
+  pitch: -36.99346
